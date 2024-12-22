@@ -5,7 +5,7 @@
 <h2>
     <a href="/about/{{ $about["slug"] }}">{{ $about["title"] }}</a></h2>
 <h5>by: {{ $about["author"] }}</h5>
-<p>{{ $about["body"] }}</p>
+{{-- <p>{{ $about["body"] }}</p> --}}
 </article>
 @endforeach
 @endsection
